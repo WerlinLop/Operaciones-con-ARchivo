@@ -71,17 +71,17 @@ def actualizar_nombre():
 
 while True:
     lista()
-    elepcion =input("has tu Elepcion: ")
+    eleccion =input("has tu Eleccion: ")
 
-    if elepcion == "1":
+    if eleccion == "1":
         crear_archivo()
-    elif elepcion =="2":
+    elif eleccion =="2":
         cambio()
-    elif elepcion == "3":
+    elif eleccion == "3":
         leer_archivo()
-    elif elepcion == "4":
+    elif eleccion == "4":
         actualizar_nombre()
-    elif elepcion == "5":
+    elif eleccion == "5":
         print(" hatsa luego")
         break
     else:
